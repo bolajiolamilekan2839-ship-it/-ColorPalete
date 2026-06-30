@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from utils.color_utils import ColorUtils
 import io
 
+# Load environment variables
 load_dotenv()
 
 # Enable logging
