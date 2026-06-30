@@ -1,5 +1,10 @@
 import os
+import sys
 import logging
+
+# Add the current directory to path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 from dotenv import load_dotenv
